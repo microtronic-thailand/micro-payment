@@ -1,76 +1,88 @@
-# Micro Payment
+# 💳 ระบบชำระเงินแบบครบวงจร
 
-ระบบการชำระเงินและบริจาค ผ่านช่องทางต่าง ๆ เช่น MaeManee, Cryptocurrency (Bitcoin, Lightning Network)
+## เกี่ยวกับเรา
 
-## 🌐 ดูหน้าเว็บ
+**Microtronic Thailand** คือผู้ให้บริการด้านการจัดทำเว็บไซต์และคำปรึกษา Digital Marketing ที่มีประสบการณ์ เรามอบวิธีการชำระเงินที่ปลอดภัย สะดวก และรองรับหลากหลายช่องทาง เพื่อให้ลูกค้าของคุณได้รับประสบการณ์ที่ดีที่สุด
 
-เยี่ยมชมหน้า: [https://microtronic-thailand.github.io/micro-payment/](https://microtronic-thailand.github.io/micro-payment/)
+### ✨ บริการของเรา
+- 🌐 **การจัดทำเว็บไซต์** - ออกแบบและพัฒนาเว็บไซต์ที่ตอบสนองต่อการใช้งาน
+- 📱 **ดิจิทัลมาร์กเก็ตติ้ง** - เพิ่มยอดขายและความเป็นที่รู้จัก
+- 💰 **ระบบชำระเงิน** - รองรับหลากหลายวิธีการ เพื่อความสะดวกของลูกค้า
+
+🌐 **Official Website** ⭐ **[microtronic.biz](https://microtronic.biz/)**
 
 ---
 
-## 💳 ช่องทางการชำระเงิน
+## 💳 วิธีการชำระเงิน
 
-### 1.1 แม่มณี
-สแกน QR Code เพื่อชำระด้วยแอปแม่มณี
+เรารองรับช่องทางการชำระเงินหลากหลายเพื่อความสะดวกของคุณ
+
+### 1️⃣ ชำระผ่านแม่มณี (MaeManee)
+ชำระเงินได้สะดวก ปลอดภัย ผ่านแอปพลิเคชันแม่มณี
 
 ![MaeManee QR](MaeManee.jpg)
-
-**ไฟล์:** `MaeManee.jpg`
+*สแกน QR Code เพื่อชำระเงิน*
 
 ---
 
-### 1.2 Bitcoin (BTC)
-สแกน QR Code สำหรับการชำระด้วย Bitcoin
+### 2️⃣ ชำระผ่าน Bitcoin (BTC)
+สนับสนุนการชำระเงินด้วยสกุลเงินดิจิทัล Bitcoin
 
 ![BTC QR](filebtc.png)
-
-**ไฟล์:** `filebtc.png`
+*สแกน QR Code เพื่อชำระเงิน*
 
 ---
 
-## 🎁 ช่องทางบริจาค (Donation)
+## 🎁 วิธีการบริจาค
 
-### 2.1 แม่มณี บริจาค
-สแกน QR Code เพื่อบริจาคผ่านแม่มณี
+สนับสนุนเราเพื่อให้บริการดีขึ้น ทั้งนี้ท่านสามารถบริจาคได้หลายวิธี
+
+### 1️⃣ บริจาคผ่านแม่มณี (MaeManee)
+บริจาคเงินสนับสนุนผ่านแอปพลิเคชันแม่มณีอย่างง่าย
 
 ![MaeManee Donation QR](MaeManee_donation.jpg)
-
-**ไฟล์:** `MaeManee_donation.jpg`
+*สแกน QR Code เพื่อบริจาค*
 
 ---
 
-### 2.2 Lightning Network (SAT)
-สแกน QR Code สำหรับการบริจาคผ่าน Lightning Network
+### 2️⃣ บริจาคผ่าน Lightning Network (SAT)
+สนับสนุนโครงการของเราด้วยสกุลเงินดิจิทัล Satoshi
 
 ![Lightning Network QR](file.png)
-
-**ไฟล์:** `file.png`
+*สแกน QR Code เพื่อบริจาค*
 
 ---
 
-## 📁 โครงสร้างไฟล์
+## 📁 โครงสร้างระบบ
 
 ```
 micro-payment/
-├── index.html                 # หน้าแสดงผล QR codes
-├── README.md                  # ไฟล์นี้
-├── MaeManee.jpg              # QR Code MaeManee สำหรับชำระเงิน
-├── MaeManee_donation.jpg     # QR Code MaeManee สำหรับบริจาค
-├── file.png                  # QR Code Lightning Network สำหรับบริจาค
-└── filebtc.png               # QR Code Bitcoin สำหรับชำระเงิน
+├── index.html                 # หน้าแสดงผลระบบชำระเงิน
+├── README.md                  # ไฟล์คำอธิบายนี้
+├── MaeManee.jpg              # QR Code ชำระเงินผ่านแม่มณี
+├── MaeManee_donation.jpg     # QR Code บริจาคผ่านแม่มณี
+├── file.png                  # QR Code บริจาคผ่าน Lightning Network
+└── filebtc.png               # QR Code ชำระเงินผ่าน Bitcoin
 ```
 
 ---
 
-## 🚀 วิธีใช้
+## � ขั้นตอนการใช้งาน
 
-1. **ดูออนไลน์:** เข้าไป [https://microtronic-thailand.github.io/micro-payment/](https://microtronic-thailand.github.io/micro-payment/)
-2. **สแกน QR:** ใช้กล้องมือถือหรือแอป QR Scanner
-3. **ทำการชำระ/บริจาค:** ตามขั้นตอนของแต่ละช่องทาง
+1. **เข้าชมเว็บไซต์** → คลิกลิงค์ด้านบน
+2. **เลือกวิธีการชำระเงิน** → เลือกช่องทางที่เหมาะกับคุณ
+3. **สแกน QR Code** → ใช้กล้องมือถือหรือแอป QR Scanner
+4. **ทำการชำระเงิน** → ตามขั้นตอนของแต่ละช่องทาง
+
+## � แจ้งการชำระเงิน
+
+**โปรดแจ้งการชำระเงินให้เราทราบ** โดยอัพโหลดใบเสร็จของท่าน
+
+🔗 **[อัพโหลดใบเสร็จ](https://docs.google.com/forms/d/e/1FAIpQLScUA8qhTF7WiEYgyGvbKLRT2s4mINBGHkeiAUr08xy16FJqvA/viewform?usp=header)**
 
 ---
 
-## 📝 หมายเหตุ
+## �📝 หมายเหตุ
 
 - ทุก QR Code มีการจัดระบบอย่างชัดเจน
 - หน้าเว็บมีการปรับให้เหมาะสมสำหรับทุกอุปกรณ์ (Responsive Design)
@@ -78,5 +90,9 @@ micro-payment/
 
 ---
 
-**สร้างโดย:** Microtronic Thailand  
-**อัปเดตล่าสุด:** May 31, 2026
+**© 2026 Microtronic Thailand** | ผู้ให้บริการจัดทำเว็บไซต์ และ Digital Marketing Consultant  
+*อัปเดตล่าสุด: June 3, 2026*
+
+### 📋 ลิงค์สำคัญ
+- 🔐 **[Privacy Policy](https://microtronic-thailand.github.io/privacy-policy/?lang=en)** - นโยบายความเป็นส่วนตัว
+- 🌐 **[Official Website](https://microtronic.biz/)** - เยี่ยมชมเว็บไซต์อย่างเป็นทางการ
